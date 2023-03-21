@@ -2,6 +2,6 @@
 .cph/
 *.bin
 .vscode/
-.Graph/
-.NewYearContest/
-.Queue/
+Graph/
+NewYearContest/
+Queue/
