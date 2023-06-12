@@ -15,6 +15,7 @@ int main()
         stringstream ss(s);
         while(ss >> num){
             a[i][stoi(num)] = 1;
+            // chỗ này không cần a[stoi(num)][i] = 1 vì tí nữa khi duyệt đến đỉnh num thì tự nó sẽ đánh dấu các kề của nó
         }
     }
 
